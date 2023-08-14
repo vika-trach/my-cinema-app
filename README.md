@@ -1,4 +1,4 @@
-# Cinema app
+# 🎬 Cinema app 🎬
 This is a RESTful web application that mimics a movie service. Its features include buying tickets, searching for available movies for rent, checking purchase history, and user registration and verification. Moreover, the app includes role-based categorization for users.
 
 ## Project Structure
