@@ -41,7 +41,7 @@ Cinema app project follows a three-tier architecture with the following structur
 
 ## DB schema
 ![cinema](https://github.com/vika-trach/my-cinema-app/assets/122274162/92ad1dd0-d07c-44b7-bea6-a054441a6524)
-##
+## How to Run
 1. Clone this project from GitHub
 2. To deploy this project you need to install Apache Tomcat web server.
 3. It's better to use 9.0.50 version. You can download it from the official Apache Tomcat website: https://tomcat.apache.org/download-90.cgi. After installation, you can set up necessary configurations and fix Tomcat by selecting the artifact to deploy taxi-service:war exploded. It's also better to remove the Application context taxi_service_war exploded to /
@@ -49,7 +49,7 @@ Cinema app project follows a three-tier architecture with the following structur
 
 <img width="1034" alt="Знімок екрана 2023-08-14 о 21 21 29" src="https://github.com/vika-trach/my-cinema-app/assets/122274162/5b939b69-da6e-4c69-8f8d-3031bedf755d">
 
-5. Set up MySQL database 8 version or higher. In the db.properties file fill with the appropriate info following fields to create connection with database:
+4. Set up MySQL database 8 version or higher. In the db.properties file fill with the appropriate info following fields to create connection with database:
 * db.driver: you database driver
 
 * db.url: the URL of your database, including host, port, db name and additional parameters.
